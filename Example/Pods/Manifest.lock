@@ -1,0 +1,16 @@
+PODS:
+  - CalculatorPodsSDK (0.1.0)
+
+DEPENDENCIES:
+  - CalculatorPodsSDK (from `../`)
+
+EXTERNAL SOURCES:
+  CalculatorPodsSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CalculatorPodsSDK: 6ab160852b4e4cd53ff5a9db8a8012b92c71546a
+
+PODFILE CHECKSUM: 4f92a01c6f6ee57cd24ae1381fb369d0673c80e9
+
+COCOAPODS: 1.8.4

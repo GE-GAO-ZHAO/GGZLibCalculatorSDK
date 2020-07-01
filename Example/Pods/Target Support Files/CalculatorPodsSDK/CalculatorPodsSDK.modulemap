@@ -1,0 +1,6 @@
+framework module CalculatorPodsSDK {
+  umbrella header "CalculatorPodsSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

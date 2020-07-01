@@ -1,0 +1,22 @@
+{
+  "name": "CalculatorPodsSDK",
+  "version": "0.1.0",
+  "summary": "A short description of CalculatorPodsSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/gegaozhao1126@gmail.com/CalculatorPodsSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "gegaozhao1126@gmail.com": "gegaozhao@100tal.com"
+  },
+  "source": {
+    "git": "https://github.com/gegaozhao1126@gmail.com/CalculatorPodsSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CalculatorPodsSDK/Classes/**/*"
+}
