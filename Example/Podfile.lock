@@ -1,5 +1,7 @@
 PODS:
-  - CalculatorPodsSDK (0.1.0)
+  - CalculatorPodsSDK (1.0.0):
+    - CalculatorPodsSDK/CalculatorSDKHeader (= 1.0.0)
+  - CalculatorPodsSDK/CalculatorSDKHeader (1.0.0)
 
 DEPENDENCIES:
   - CalculatorPodsSDK (from `../`)
@@ -9,8 +11,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CalculatorPodsSDK: 6ab160852b4e4cd53ff5a9db8a8012b92c71546a
+  CalculatorPodsSDK: 55085e3002fc800ef69b94b62e83dcfe792621ed
 
-PODFILE CHECKSUM: 4f92a01c6f6ee57cd24ae1381fb369d0673c80e9
+PODFILE CHECKSUM: 031f97ee606bb1bbe217e84c423b759aa8ded19e
 
 COCOAPODS: 1.8.4
