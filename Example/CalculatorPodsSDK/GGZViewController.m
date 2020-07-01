@@ -7,7 +7,7 @@
 //
 
 #import "GGZViewController.h"
-
+#import <CalculatorPodsSDK/CalculatorSDK.h>
 @interface GGZViewController ()
 
 @end
@@ -18,6 +18,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"ssss: %zd",[CalculatorSDK addWithFirstDigital:5 secondDigital:6]);
 }
 
 - (void)didReceiveMemoryWarning

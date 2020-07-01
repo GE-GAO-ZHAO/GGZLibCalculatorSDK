@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CalculatorPodsSDK'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'A short description of CalculatorPodsSDK.'
 
   # This description is used to generate tags and improve search results.
@@ -28,16 +28,17 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/GE-GAO-ZHAO/GGZLibCalculatorSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '8.0'
 
   s.subspec 'CalculatorSDKHeader' do |calculatorSDKHeader|
     calculatorSDKHeader.source_files = 'CalculatorPodsSDK/Classes/CalculatorSDKHeader/*.h'
     calculatorSDKHeader.public_header_files = 'CalculatorPodsSDK/Classes/CalculatorSDKHeader/*.h'
   end
 
-  s.ios.vendored_libraries = 'CalculatorPodsSDK/Classes/libCalculatorSDK.a'
+  s.vendored_libraries = 'CalculatorPodsSDK/Classes/libCalculatorSDK.a'
 
   # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'Foundation', 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 
   s.requires_arc = true

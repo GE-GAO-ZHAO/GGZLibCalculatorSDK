@@ -366,20 +366,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		065DC27B077426F2367417754C567A2A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9A67E7103F35B47E465821D49F52A777 /* CalculatorPodsSDK.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -479,14 +465,13 @@
 			};
 			name = Release;
 		};
-		42270BEF0D766B241220C1917EFCD4BB /* Release */ = {
+		6B25F39A6A2914F4002DFEC0E00E839C /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9A67E7103F35B47E465821D49F52A777 /* CalculatorPodsSDK.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -657,6 +642,19 @@
 			};
 			name = Debug;
 		};
+		CFA80F5FAE209E0A87F56FFB89A58AB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A67E7103F35B47E465821D49F52A777 /* CalculatorPodsSDK.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -690,8 +688,8 @@
 		99BFA8265570E2430E49C22B5735976F /* Build configuration list for PBXAggregateTarget "CalculatorPodsSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				065DC27B077426F2367417754C567A2A /* Debug */,
-				42270BEF0D766B241220C1917EFCD4BB /* Release */,
+				CFA80F5FAE209E0A87F56FFB89A58AB6 /* Debug */,
+				6B25F39A6A2914F4002DFEC0E00E839C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
